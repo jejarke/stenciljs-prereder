@@ -1,0 +1,42 @@
+{
+  "name": "stencil-prerender",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "prerender": "stencil build --dev --watch --serve --prerender",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "0.18.0",
+    "@stencil/redux": "0.0.4",
+    "@stencil/router": "0.3.3",
+    "@stencil/sass": "0.1.1",
+    "@types/node": "^11.9.4",
+    "babel-core": "6.26.3",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "i18next": "^15.0.2",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^2.0.0",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@storybook/polymer": "^4.0.0-alpha.4",
+    "@types/jest": "23.3.14",
+    "@types/puppeteer": "1.12.3",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "jest-cli": "^24.5.0",
+    "lit-html": "^1.0.0",
+    "polymer-webpack-loader": "^2.0.3",
+    "puppeteer": "1.11.0",
+    "workbox-build": "3.4.1"
+  },
+  "license": "MIT"
+}
